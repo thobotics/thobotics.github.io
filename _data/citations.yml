@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-03'
+  last_updated: '2025-12-17'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -30,7 +30,7 @@ papers:
     title: 'Enhancing Exploration with Diffusion Policies in Hybrid Off-Policy RL: Application to Non-Prehensile Manipulation'
     year: '2025'
   _jAx5dsAAAAJ:_FxGoFyzp5QC:
-    citations: 1
+    citations: 0
     title: 'AMBER: Adaptive Mesh Generation by Iterative Mesh Resolution Prediction'
     year: '2025'
   _jAx5dsAAAAJ:d1gkVwhDpl0C:
@@ -38,7 +38,7 @@ papers:
     title: Ball-and-socket joint pose estimation using magnetic field
     year: '2022'
   _jAx5dsAAAAJ:hqOjcs7Dif8C:
-    citations: 1
+    citations: 0
     title: MaNGO-Adaptable Graph Network Simulators via Meta-Learning
     year: '2025'
   _jAx5dsAAAAJ:qjMakFHDy7sC:
@@ -46,6 +46,6 @@ papers:
     title: Latent Task-Specific Graph Network Simulators
     year: '2023'
   _jAx5dsAAAAJ:ufrVoPGSRksC:
-    citations: 7
+    citations: 6
     title: Geometry-aware RL for Manipulation of Varying Shapes and Deformable Objects
     year: '2025'
