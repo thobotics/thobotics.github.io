@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-17'
+  last_updated: '2026-01-16'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -26,7 +26,7 @@ papers:
     title: Graph-Based Motion Planning Networks
     year: '2020'
   _jAx5dsAAAAJ:YsMSGLbcyi4C:
-    citations: 2
+    citations: 3
     title: 'Enhancing Exploration with Diffusion Policies in Hybrid Off-Policy RL: Application to Non-Prehensile Manipulation'
     year: '2025'
   _jAx5dsAAAAJ:_FxGoFyzp5QC:
@@ -46,6 +46,6 @@ papers:
     title: Latent Task-Specific Graph Network Simulators
     year: '2023'
   _jAx5dsAAAAJ:ufrVoPGSRksC:
-    citations: 6
+    citations: 7
     title: Geometry-aware RL for Manipulation of Varying Shapes and Deformable Objects
     year: '2025'
