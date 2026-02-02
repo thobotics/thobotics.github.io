@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-26'
+  last_updated: '2026-02-02'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -12,7 +12,7 @@ papers:
   _jAx5dsAAAAJ:5nxA0vEk-isC:
     citations: 0
     title: Improving Long-Range Interactions in Graph Neural Simulators via Hamiltonian Dynamics
-    year: '2025'
+    year: '2026'
   _jAx5dsAAAAJ:8k81kl-MbHgC:
     citations: 0
     title: Smooth Sampling-Based Model Predictive Control Using Deterministic Samples
