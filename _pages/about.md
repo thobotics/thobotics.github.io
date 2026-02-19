@@ -24,3 +24,4 @@ My research interest includes:
 * Physical Modelling
 * Reinforcement Learning
 * Deformable Object Manipulation
+* World Models
