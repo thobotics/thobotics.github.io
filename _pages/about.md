@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I am a PhD student in machine learning and robotics at the [Autonomous Learning Robot (ALR) group](https://alr.iar.kit.edu/) at KIT, under the supervision of Prof. [Gerhard Neumann](https://alr.iar.kit.edu/21_65.php). My research focuses on graph neural networks, reinforcement learning, physical modelling, and deformable object manipulation. Before that, I completed my Master at the Technical University of Munich and my Bachelor at the University of Information Technology in Vietnam, both majoring in Computer Science.
+I'm a PhD student at the [Autonomous Learning Robot (ALR) group](https://alr-kit.de/) at KIT, advised by Prof. [Gerhard Neumann](https://alr-kit.de/team/geri/). Previously, I was a research assistant at the [Volkswagen Machine Learning Research Lab](https://argmax.ai/), working with Dr. [Maximilian Karl](https://scholar.google.com/citations?user=noekAeoAAAAJ) and Prof. [Patrick van der Smagt](https://scholar.google.com/citations?user=5ybzvbsAAAAJ) on world models and model-based reinforcement learning. I hold an M.Sc. from TU Munich and a B.Sc. from the University of Information Technology, Vietnam.
 
 ## Research Areas
 
