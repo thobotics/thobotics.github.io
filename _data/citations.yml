@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-06'
+  last_updated: '2026-03-18'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Context-aware Learned Mesh-based Simulation via Trajectory-Level Meta-Learning
     year: '2025'
   _jAx5dsAAAAJ:2osOgNQ5qMEC:
-    citations: 15
+    citations: 16
     title: Towards autoencoding variational inference for aspect-based opinion summary
     year: '2019'
   _jAx5dsAAAAJ:5nxA0vEk-isC:
@@ -42,7 +42,7 @@ papers:
     title: Ball-and-socket joint pose estimation using magnetic field
     year: '2022'
   _jAx5dsAAAAJ:hqOjcs7Dif8C:
-    citations: 1
+    citations: 2
     title: MaNGO-Adaptable Graph Network Simulators via Meta-Learning
     year: '2025'
   _jAx5dsAAAAJ:qjMakFHDy7sC:
