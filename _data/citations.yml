@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-18'
+  last_updated: '2026-04-22'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
-    citations: 0
+    citations: 1
     title: Context-aware Learned Mesh-based Simulation via Trajectory-Level Meta-Learning
     year: '2025'
   _jAx5dsAAAAJ:2osOgNQ5qMEC:
@@ -25,6 +25,10 @@ papers:
     citations: 2
     title: Autonomous soft hand grasping--Literature review
     year: '2022'
+  _jAx5dsAAAAJ:MXK_kJrjxJIC:
+    citations: 0
+    title: Algebraic Hierarchical Graph Neural Networks for Forming Simulation of Thermoplastic Composite Materials
+    year: '2026'
   _jAx5dsAAAAJ:UebtZRa9Y70C:
     citations: 3
     title: Graph-Based Motion Planning Networks
@@ -42,7 +46,7 @@ papers:
     title: Ball-and-socket joint pose estimation using magnetic field
     year: '2022'
   _jAx5dsAAAAJ:hqOjcs7Dif8C:
-    citations: 2
+    citations: 3
     title: MaNGO-Adaptable Graph Network Simulators via Meta-Learning
     year: '2025'
   _jAx5dsAAAAJ:qjMakFHDy7sC:
