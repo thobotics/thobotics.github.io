@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-04-29'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -18,7 +18,7 @@ papers:
     title: Smooth Sampling-Based Model Predictive Control Using Deterministic Samples
     year: '2026'
   _jAx5dsAAAAJ:9yKSN-GCB0IC:
-    citations: 2
+    citations: 3
     title: Bayes-adaptive deep model-based policy optimisation
     year: '2020'
   _jAx5dsAAAAJ:IjCSPb-OGe4C:
@@ -26,7 +26,7 @@ papers:
     title: Autonomous soft hand grasping--Literature review
     year: '2022'
   _jAx5dsAAAAJ:MXK_kJrjxJIC:
-    citations: 0
+    citations: 1
     title: Algebraic Hierarchical Graph Neural Networks for Forming Simulation of Thermoplastic Composite Materials
     year: '2026'
   _jAx5dsAAAAJ:UebtZRa9Y70C:
@@ -54,6 +54,6 @@ papers:
     title: Latent Task-Specific Graph Network Simulators
     year: '2023'
   _jAx5dsAAAAJ:ufrVoPGSRksC:
-    citations: 10
+    citations: 11
     title: Geometry-aware RL for Manipulation of Varying Shapes and Deformable Objects
     year: '2025'
