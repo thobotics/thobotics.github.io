@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-29'
+  last_updated: '2026-05-01'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -42,7 +42,7 @@ papers:
     title: 'AMBER: Adaptive Mesh Generation by Iterative Mesh Resolution Prediction'
     year: '2025'
   _jAx5dsAAAAJ:d1gkVwhDpl0C:
-    citations: 3
+    citations: 4
     title: Ball-and-socket joint pose estimation using magnetic field
     year: '2022'
   _jAx5dsAAAAJ:hqOjcs7Dif8C:
