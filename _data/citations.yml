@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-11'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -54,6 +54,6 @@ papers:
     title: Latent Task-Specific Graph Network Simulators
     year: '2023'
   _jAx5dsAAAAJ:ufrVoPGSRksC:
-    citations: 11
+    citations: 12
     title: Geometry-aware RL for Manipulation of Varying Shapes and Deformable Objects
     year: '2025'
