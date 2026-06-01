@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-11'
+  last_updated: '2026-06-01'
 papers:
   _jAx5dsAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -9,12 +9,20 @@ papers:
     citations: 16
     title: Towards autoencoding variational inference for aspect-based opinion summary
     year: '2019'
+  _jAx5dsAAAAJ:3fE2CSJIrl8C:
+    citations: 0
+    title: 'PAWS: Preference Learning with Advantage-Weighted Segments'
+    year: Unknown Year
+  _jAx5dsAAAAJ:4TOpqqG69KYC:
+    citations: 0
+    title: 'Diff-HySAC: Diffusion-Based Hybrid Soft Actor-Critic for 6D Non-Prehensile Manipulation'
+    year: Unknown Year
   _jAx5dsAAAAJ:5nxA0vEk-isC:
     citations: 0
     title: Improving Long-Range Interactions in Graph Neural Simulators via Hamiltonian Dynamics
     year: '2026'
   _jAx5dsAAAAJ:8k81kl-MbHgC:
-    citations: 0
+    citations: 1
     title: Smooth Sampling-Based Model Predictive Control Using Deterministic Samples
     year: '2026'
   _jAx5dsAAAAJ:9yKSN-GCB0IC:
@@ -29,12 +37,20 @@ papers:
     citations: 1
     title: Algebraic Hierarchical Graph Neural Networks for Forming Simulation of Thermoplastic Composite Materials
     year: '2026'
+  _jAx5dsAAAAJ:ULOm3_A8WrAC:
+    citations: 0
+    title: Point Cloud Sequence Encoding for Material-conditioned Graph Network Simulators
+    year: '2026'
   _jAx5dsAAAAJ:UebtZRa9Y70C:
     citations: 3
     title: Graph-Based Motion Planning Networks
     year: '2020'
+  _jAx5dsAAAAJ:YOwf2qJgpHMC:
+    citations: 0
+    title: Curriculum Learning for Transferable Deep-State Space Models
+    year: Unknown Year
   _jAx5dsAAAAJ:YsMSGLbcyi4C:
-    citations: 3
+    citations: 4
     title: 'Enhancing Exploration with Diffusion Policies in Hybrid Off-Policy RL: Application to Non-Prehensile Manipulation'
     year: '2025'
   _jAx5dsAAAAJ:_FxGoFyzp5QC:
