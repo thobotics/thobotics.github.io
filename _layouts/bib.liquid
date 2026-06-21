@@ -63,14 +63,26 @@
       {% assign self_author_index = -1 %}
       {%- for author in entry.author_array -%}
         {%- assign current_author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-        {% if site.scholar.last_name contains current_author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
-            {% assign self_author_index = forloop.index %}
+        {% assign current_author_is_self_last_name = false %}
+        {% for scholar_last_name in site.scholar.last_name %}
+          {% if scholar_last_name == current_author_last_name %}
+            {% assign current_author_is_self_last_name = true %}
             {% break %}
           {% endif %}
-        {%- endif -%}
+        {% endfor %}
+        {% assign current_author_is_self_first_name = false %}
+        {% for scholar_first_name in site.scholar.first_name %}
+          {% if scholar_first_name == author.first %}
+            {% assign current_author_is_self_first_name = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if current_author_is_self_last_name and current_author_is_self_first_name %}
+          {% assign self_author_index = forloop.index %}
+          {% break %}
+        {% endif %}
       {% endfor %}
-      {% if self_author_index > author_array_limit %}
+      {% if self_author_index > 0 and self_author_index > author_array_limit %}
         {% assign author_array_limit = self_author_index %}
       {% endif %}
 
@@ -78,10 +90,22 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
-            {% assign author_is_self = true %}
+        {% assign author_is_self_last_name = false %}
+        {% for scholar_last_name in site.scholar.last_name %}
+          {% if scholar_last_name == author_last_name %}
+            {% assign author_is_self_last_name = true %}
+            {% break %}
           {% endif %}
+        {% endfor %}
+        {% assign author_is_self_first_name = false %}
+        {% for scholar_first_name in site.scholar.first_name %}
+          {% if scholar_first_name == author.first %}
+            {% assign author_is_self_first_name = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if author_is_self_last_name and author_is_self_first_name %}
+          {% assign author_is_self = true %}
         {%- endif -%}
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
