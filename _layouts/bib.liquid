@@ -60,7 +60,7 @@
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
-      {% assign self_author_index = null %}
+      {% assign self_author_index = nil %}
       {%- for author in entry.author_array -%}
         {%- assign current_author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {% if site.scholar.last_name contains current_author_last_name %}
