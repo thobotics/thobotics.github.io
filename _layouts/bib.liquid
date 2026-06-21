@@ -60,7 +60,7 @@
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
-      {% assign self_author_index = nil %}
+      {% assign self_author_index = -1 %}
       {%- for author in entry.author_array -%}
         {%- assign current_author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {% if site.scholar.last_name contains current_author_last_name %}
@@ -70,7 +70,7 @@
           {% endif %}
         {%- endif -%}
       {% endfor %}
-      {% if self_author_index and self_author_index > author_array_limit %}
+      {% if self_author_index > author_array_limit %}
         {% assign author_array_limit = self_author_index %}
       {% endif %}
 
