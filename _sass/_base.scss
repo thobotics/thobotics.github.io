@@ -790,8 +790,9 @@ footer.sticky-bottom {
           }
         }
 
-        > em {
-          border-bottom: 1px solid;
+        > span.self-author {
+          color: var(--global-theme-color);
+          font-weight: 700;
           font-style: normal;
         }
 
