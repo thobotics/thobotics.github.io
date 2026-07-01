@@ -1,0 +1,95 @@
+/*******************************************************************************
+ * Custom styles: homepage cloth hero + research question cards
+ ******************************************************************************/
+
+// Homepage hero: interactive cloth simulation
+.cloth-hero {
+  margin: 0.25rem 0 0.75rem;
+
+  canvas {
+    display: block;
+    width: 100%;
+    height: 220px;
+    cursor: grab;
+    touch-action: pan-y;
+  }
+
+  .cloth-caption {
+    margin-top: 0.15rem;
+    font-size: 0.72rem;
+    font-style: italic;
+    text-align: right;
+    color: var(--global-text-color-light);
+    user-select: none;
+  }
+}
+
+// Research question cards
+.research-questions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+a.rq-card {
+  display: block;
+  padding: 1rem 1.15rem 1.05rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background: var(--global-card-bg-color);
+  text-decoration: none !important;
+  color: var(--global-text-color);
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: var(--global-theme-color);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    color: var(--global-text-color);
+  }
+
+  .rq-question {
+    display: block;
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.35rem;
+  }
+
+  .rq-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: var(--global-theme-color);
+    margin-bottom: 0.3rem;
+  }
+
+  .rq-desc {
+    display: block;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    margin-bottom: 0.65rem;
+  }
+
+  .rq-venue {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 0.15rem 0.55rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    color: var(--global-theme-color);
+
+    &.rq-award {
+      border-color: #e63946;
+      color: #e63946;
+    }
+  }
+}

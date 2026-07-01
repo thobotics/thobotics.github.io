@@ -14,6 +14,14 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
+  {% if page.cloth_hero %}
+    <div class="cloth-hero">
+      <canvas id="cloth-hero-canvas" role="img" aria-label="Interactive cloth simulation: a deformable object represented as a graph of nodes and springs"></canvas>
+      <div class="cloth-caption">a deformable object, as my robots see it — go ahead, grab it (double-click to reset)</div>
+    </div>
+    <script defer src="{{ '/assets/js/cloth-hero.js' | relative_url | bust_file_cache }}"></script>
+  {% endif %}
+
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -46,14 +54,6 @@ layout: default
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->

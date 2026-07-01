@@ -18,6 +18,8 @@ $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
+$teal-color: #0c8f87 !default; // object-node teal from the HEPi figures
+$teal-color-bright: #3ad6cb !default; // brighter variant for dark mode
 $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
