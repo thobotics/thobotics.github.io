@@ -16,7 +16,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{
+        },{id: "news-hepi-our-geometry-aware-rl-approach-for-manipulating-varying-shapes-and-deformable-objects-is-accepted-at-iclr-2025-as-an-oral-presentation-top-1-8-tada-check-out-the-project-page",
+          title: 'HEPi, our geometry-aware RL approach for manipulating varying shapes and deformable objects, is...',
+          description: "",
+          section: "News",},{id: "news-two-papers-accepted-at-neurips-2025-mango-adaptable-graph-network-simulators-via-meta-learning-and-amber-adaptive-mesh-generation",
+          title: 'Two papers accepted at NeurIPS 2025: MaNGO (adaptable graph network simulators via meta-learning)...',
+          description: "",
+          section: "News",},{id: "news-igns-is-accepted-at-iclr-2026-we-improve-long-range-interactions-in-graph-neural-simulators-via-hamiltonian-dynamics-see-the-project-page",
+          title: 'IGNS is accepted at ICLR 2026! We improve long-range interactions in graph neural...',
+          description: "",
+          section: "News",},{id: "news-two-papers-accepted-at-icml-2026-trust-region-diffusion-policies-for-massively-parallel-on-policy-rl-and-paws-preference-learning-with-advantage-weighted-segments",
+          title: 'Two papers accepted at ICML 2026: Trust-Region Diffusion Policies for massively parallel on-policy...',
+          description: "",
+          section: "News",},{id: "news-i-m-giving-an-invited-talk-at-microsoft-research-cambridge-on-graph-neural-modeling-for-deformable-manipulation-with-geometry-and-physics-as-inductive-biases-covering-our-recent-works-igns-and-hepi",
+          title: 'I’m giving an invited talk at Microsoft Research, Cambridge on Graph Neural Modeling...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
