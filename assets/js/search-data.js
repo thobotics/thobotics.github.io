@@ -28,8 +28,8 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-at-icml-2026-trust-region-diffusion-policies-for-massively-parallel-on-policy-rl-and-paws-preference-learning-with-advantage-weighted-segments",
           title: 'Two papers accepted at ICML 2026: Trust-Region Diffusion Policies for massively parallel on-policy...',
           description: "",
-          section: "News",},{id: "news-i-gave-an-invited-online-talk-at-microsoft-research-cambridge-on-graph-neural-modeling-for-deformable-manipulation-with-geometry-and-physics-as-inductive-biases-covering-our-recent-works-igns-and-hepi",
-          title: 'I gave an invited online talk at Microsoft Research, Cambridge on Graph Neural...',
+          section: "News",},{id: "news-i-gave-an-invited-online-talk-hosted-by-sergio-valcarcel-macua-at-microsoft-research-cambridge-on-graph-neural-modeling-for-deformable-manipulation-with-geometry-and-physics-as-inductive-biases-covering-our-recent-works-igns-and-hepi",
+          title: 'I gave an invited online talk hosted by Sergio Valcarcel Macua at Microsoft...',
           description: "",
           section: "News",},{
         id: 'social-email',
