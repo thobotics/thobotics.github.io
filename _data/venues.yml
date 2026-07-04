@@ -1,9 +1,24 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badges shown next to each publication.
+# The key must exactly match the `abbr` field of a bibtex entry in
+# _bibliography/papers.bib. `url` makes the badge link to the venue.
+#
+# Note: we intentionally do not set a `color` here. Without it, badges use the
+# site's theme color, which adapts to light/dark mode (a hardcoded hex would
+# keep white text on a fixed background and lose contrast in one of the modes).
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"ICLR":
+  url: https://iclr.cc/
+"ICML":
+  url: https://icml.cc/
+"NeurIPS":
+  url: https://neurips.cc/
+"TMLR":
+  url: https://jmlr.org/tmlr/
+"RA-L":
+  url: https://www.ieee-ras.org/publications/ra-l
+"ISRR":
+  url: https://www.isrr.org/
+"ECML PKDD":
+  url: https://ecmlpkdd.org/
+"Applied AI":
+  url: https://www.tandfonline.com/journals/uaai20
