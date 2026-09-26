@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">A deforming material patch represented as a graph</title>
+  <path d="M9 13 Q21 12 33 21 Q44 18 53 9 L57 53 Q43 44 30 40 Q18 44 7 48 Z"
+        fill="#dff4f1" stroke="#0f8f86" stroke-width="4.2" stroke-linejoin="round"/>
+  <path d="M9 13 Q6 29 7 48 M33 21 Q35 30 30 40 M53 9 Q55 30 57 53"
+        fill="none" stroke="#0f8f86" stroke-width="4.2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#f7faf9" stroke="#142022" stroke-width="2">
+    <circle cx="9" cy="13" r="4.2"/>
+    <circle cx="33" cy="21" r="4.2"/>
+    <circle cx="53" cy="9" r="4.2"/>
+    <circle cx="7" cy="48" r="4.2"/>
+    <circle cx="57" cy="53" r="4.2"/>
+  </g>
+  <circle cx="30" cy="40" r="4.2" fill="#e06b52" stroke="#142022" stroke-width="2"/>
+</svg>
