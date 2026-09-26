@@ -31,6 +31,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-gave-an-invited-online-talk-hosted-by-sergio-valcarcel-macua-at-microsoft-research-cambridge-on-graph-neural-modeling-for-deformable-manipulation-with-geometry-and-physics-as-inductive-biases-covering-our-recent-works-igns-and-hepi",
           title: 'I gave an invited online talk hosted by Sergio Valcarcel Macua at Microsoft...',
           description: "",
+          section: "News",},{id: "news-our-paper-long-range-spatio-temporal-graph-propagation-through-oscillations-is-accepted-at-neurips-2026",
+          title: 'Our paper Long-Range Spatio-Temporal Graph Propagation Through Oscillations is accepted at NeurIPS 2026!...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
