@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD student at KIT working on graph neural modeling for deformable object manipulation — physics-informed graph neural simulators (IGNS, ICLR 2026) and geometry-aware reinforcement learning (HEPi, ICLR 2025 Oral).
+description: PhD student at KIT developing principled methods for information propagation across space and time in physical modeling and robot learning.
 subtitle: PhD Student in Machine Learning and Robotics at <a href='https://kit.edu'>Karlsruhe Institute of Technology</a>.
 
 profile:
@@ -28,7 +28,11 @@ I'm a PhD student at the [Autonomous Learning Robot (ALR) group](https://alr-kit
 
 ## research
 
-I make robots handle things that bend, drape, and tangle. Deformable objects have too many degrees of freedom and dynamics too complex to write down by hand — so I model them as **graphs, with geometry and physics as inductive biases**. Two questions organize the work:
+I develop principled methods for effective information propagation across space and time in physical modeling and robot learning. Inspired by principles from dynamical systems, I design graph-based simulators to predict deformable dynamics and reinforcement learning policies for robotic control.
+
+**Research interests:** reinforcement learning, geometric deep learning, graph-based simulation, and physical world models.
+
+Selected projects:
 
 <div class="research-questions">
   <a class="rq-card" href="https://thobotics.github.io/neural_pde_matching/">
